@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    background-color: teal;
+    display: flex;
+    justify-content: start;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 25px;
+}
+nav ul li a{
+    padding: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+}
+i{
+    margin-right: 10px;
+}
+a:hover{
+    background-color: gray;
+    border-radius: 20px;
+}
+header{
+    background-image: url(./image/banner.jpg);
+    height: 80vh;
+    background-position: center 520px;
+    background-size: cover;
+}
+header .head{
+    position: absolute;
+    top: 250px;
+    left: 80px;
+}
+header .head h3{
+    font-family: cursive;
+    font-size: 36px;
+    color: white;
+    margin-bottom: 10px;
+}
+header .head p{
+    width: 50%;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 20px;
+}
+header .head button{
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+}
+header .head button:hover{
+    background-color: gray;
+}
+main{
+    width: 90%;
+    margin: auto;
+}
+main section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+main section .card{
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+main section .card img{
+    width:300px;
+}
+main section .card h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+main section .card p{
+    font-family: sans-serif;
+    font-size: 13px;
+    text-align: justify;
+    text-indent: 20px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+main section .card:hover{
+    transform: scale(1.02);
+}
+main section .map iframe{
+    width: 1220px;
+    height: 500px;
+    border: none;
+    margin-bottom: 50px;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: teal;
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+}
